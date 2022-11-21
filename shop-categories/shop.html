@@ -1,0 +1,33 @@
+---
+layout: default
+seo:
+ title: Living Unconventionally
+ description: Need some travel advice from a family? We have a lot of freebies, ebooks and recommendations for you!
+ keywords: family travels, adventure, life on the road, family adventure, the american family, family life in the usa, living unconventionally, cassidy and scott, travel photography, IG, families who travel, travel family, free downloads, gifts for families, family freebies
+ social-alt: Need some travel advice from a family? We have a lot of freebies, ebooks and recommendations for you!
+ url: https://living-unconventionally.com/shop
+ social-share_image: /images/14.jpg
+heading: Shop Unconventionally
+---
+<section class="grid padded-top">
+  <div class="col-12">
+    <h1> {{page.heading}}
+    </h1>
+  </div>
+</section>
+<div class="grid-left padded-sides all-products ">
+    {% assign all_products = site.products | where: 'all_products', true %}
+    {% for shop in all_products %}
+    <a class="col-4_sm-4_xs-12 padded" href="{{shop.url}}">
+      <div class="card stat-cards border centered transparent-bg">
+        <img src="{{shop.product-image}}" alt="{{shop.product-image-alt}}">
+        <div class="padded-1 left">
+          <h5>{{shop.product-name}}</h5>
+          <p class="product-price"> {{shop.price}} <span class="compare-at-price">{{shop.discounted-price}} </span> </p>
+          <p>{{shop.product-description-summery}}</p>
+          <p class="stars">{{shop.product-rating}}</p>
+        </div>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
