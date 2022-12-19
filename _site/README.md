@@ -1,2 +1,2 @@
-# ttl-blog-add-on-template
+# ttl-blog-and-shop-add-on-template
  
