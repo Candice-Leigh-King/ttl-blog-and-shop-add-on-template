@@ -7,27 +7,120 @@ seo:
  social-alt: Need some travel advice from a family? We have a lot of freebies, ebooks and recommendations for you!
  url: https://living-unconventionally.com/shop
  social-share_image: /images/14.jpg
-heading: Shop Unconventionally
+heading: Shop All
+colors:
+ heading-color: '#859f9f'
+ product-title-color: 'white'
+ product-price: 'white'
+ discounted-price-color: '#9b4851'
+ product-description-color: '#2f3031'
+ rating-color: '#859f9f'
+ cta-color: 'white'
+ shop-background-color: 'white' 
+ product-hover-overlay: '#859f9f5c' 
+ border-color: 'white'
+ product-description-background-color: '#BCCACA'
+ price-background-color: '#9b4851'
+ discounted-price-background-color: 'white'
+fonts:
+ heading-font: Shrikhand, cursive
+ product-title-font: Shrikhand, cursive
+ product-description-font: Raleway, sans-serif
+ cta-font: brushwell
 ---
-<section class="grid padded-top">
-  <div class="col-12">
-    <h1> {{page.heading}}
-    </h1>
-  </div>
-</section>
-<div class="grid-left padded-sides all-products ">
-    {% assign all_products = site.products | where: 'all_products', true %}
-    {% for shop in all_products %}
-    <a class="col-4_sm-4_xs-12 padded" href="{{shop.url}}">
-      <div class="card stat-cards border centered transparent-bg">
-        <img src="{{shop.product-image}}" alt="{{shop.product-image-alt}}">
-        <div class="padded-1 left">
-          <h5>{{shop.product-name}}</h5>
-          <p class="product-price"> {{shop.price}} <span class="compare-at-price">{{shop.discounted-price}} </span> </p>
-          <p>{{shop.product-description-summery}}</p>
-          <p class="stars">{{shop.product-rating}}</p>
-        </div>
+
+<style>
+
+  #content-blocks-{{forloop.index0}} h2 
+    {
+    color: {{page.colors.heading-color}};
+    font-family: {{page.fonts.heading-font}};
+    }
+
+  #content-blocks-{{forloop.index0}} .shop-background-color 
+    {background-color: {{page.colors.shop-background-color}};}
+
+  #content-blocks-{{forloop.index0}}  .blog-hover-overlay:hover 
+    {
+    background-color: {{page.colors.product-hover-overlay}};
+    color: {{page.colors.cta-color}};
+    }
+
+  #content-blocks-{{forloop.index0}} .shop-bump
+    {
+    border-top: 4px solid {{page.colors.border-color}};
+    border-left: 4px solid {{page.colors.border-color}};
+    background-color: {{page.colors.product-description-background-color}};
+    }
+  
+  #content-blocks-{{forloop.index0}} .all-products h3
+    {
+    font-family: {{page.fonts.product-title-font}};
+    color: {{page.colors.product-title-color}};
+    }
+
+  #content-blocks-{{forloop.index0}} .all-products h5
+    {
+    font-family: {{page.fonts.cta-font}};
+    }
+
+
+  #content-blocks-{{forloop.index0}} .all-products p
+  {
+  font-family: {{page.fonts.product-description-font}};
+  color: {{page.colors.product-description-color}};
+  }
+
+  #content-blocks-{{forloop.index0}} .stars p
+  {
+  color: {{page.colors.rating-color}};
+  }
+
+  #content-blocks-{{forloop.index0}} .product-price
+    {
+    background-color: {{page.colors.price-background-color}};
+    color: {{page.colors.product-price}}
+    }
+
+  #content-blocks-{{forloop.index0}} .compare-at-price
+   {
+   background-color: {{page.colors.discounted-price-background-color}};
+   color: {{page.colors.discounted-price-color}};
+   }
+</style>
+
+
+<section id="content-blocks-{{forloop.index0}}">
+  <section class="shop-background-color grid padded-top">
+    <div class="col-12 padded">
+      <h2> {{page.heading}}</h2>
+    </div>
+  </section>
+  <section class="padded-sides grid-center all-products">
+    <div class="blog-loop blog-masonry padded-1">
+      {% assign all_products = site.products | where: 'all_products', true %}
+      {% for shop in all_products %}
+      <div class="masonry-item ">
+        <a class="padded"href="{{shop.url}}">
+          <div class="hover-container" style="background-image:url('{{shop.shop-hero.product-image}}')">
+            <div class="blog-hover-overlay">
+              <div class="hover-inner center">
+                <h5 class=""> {{shop.shop-hero.cta}} </h5>
+              </div>
+            </div>
+          </div>
+          <div class="shop-bump left grid">
+            <h3>{{shop.shop-hero.product-name}}</h3>
+            <p class=""><span class="product-price"> {{shop.shop-hero.price}}</span> <span class="compare-at-price">{{shop.shop-hero.discounted-price}} </span></p>
+            <p>{{shop.shop-hero.product-description-summery}}</p>
+            <div class="stars">
+              <p>{{shop.shop-hero.product-rating}}</p>
+            </div>
+          </div>
+        </a>
       </div>
-    </a>
-    {% endfor %}
-  </div>
+    </div> 
+      {% endfor %}
+    </div>
+   </section> 
+</section>

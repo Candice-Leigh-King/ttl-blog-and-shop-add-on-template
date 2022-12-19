@@ -1,4 +1,4 @@
-Brand notes
+Brand notesf
 
 /* COLORS
 dark blue = #859F9F
@@ -159,7 +159,7 @@ font-family: 'Shrikhand', cursive;*/
   .radius-quarter {border-radius: 0px 400px 0px 0px;}
   .bottom-radius {border-radius: 0px 0px 310px 310px;}
   .circle {border-radius: 500px;}
-  .border {border: solid 1px #CE967A;}
+  .border {border: solid 4px #CE967A;}
   .border-mob {border: solid 1px #CE967A;}
   
   .medium-image
@@ -629,6 +629,51 @@ font-family: 'Shrikhand', cursive;*/
     color: white;
     text-align: center;
     }
+
+  .all-products .compare-at-price 
+  {font-size: 1.3rem;}
+
+  .all-products .product-price
+  {font-size: 1.3rem;}
+
+  .all-products h3 
+  {
+    font-size: 1.3rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #2F3E39;
+    text-shadow: none;
+    margin: 0px 0px 10px
+  }
+
+  .product-price 
+  {
+  color: #9b4851;
+  font-size: 1.7rem;
+  background-color: #d2966d;
+  padding: 0.2rem 0.5rem;
+  margin-right: -5px
+  }
+
+  .compare-at-price 
+  {
+  text-decoration: line-through;
+  color: #748672;
+  padding: 0.2rem 0.5rem;
+  font-size: 1.7rem;
+  }
+
+  .shop-bump
+  {
+  margin-left: 2rem;
+  margin-top: -3rem;
+  z-index: 3;
+  position: relative;
+  padding: 5%;
+  } 
+
+  .stars p
+  {font-size: 1.2rem;}
+
 
  
 
