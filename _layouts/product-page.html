@@ -194,7 +194,13 @@ layout: default
 
     .compare-at-price 
     {color: {{page.shop-hero.colors.discounted-price-color}};}
-   
+
+   .stars p
+   {
+   font-size: 1.5rem;
+   color: {{page.shop-hero.colors.product-rating-color}};
+   }
+
   </style>
 
   
@@ -209,6 +215,9 @@ layout: default
       <p> <span class="product-price"> {{page.shop-hero.price}}</span>  <span class="compare-at-price">{{page.shop-hero.discounted-price}}</span> </p>
       <p> {{page.shop-hero.product-description_html}}
       </p>
+      <div class="stars">
+        <p>{{page.shop-hero.product-rating}}</p>
+      </div>
     </div>
    </div> 
   </section>
