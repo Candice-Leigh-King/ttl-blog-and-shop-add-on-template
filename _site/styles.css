@@ -207,7 +207,6 @@ font-family: 'Shrikhand', cursive;*/
     font-style: normal;
     font-weight: 400;
     font-size: 3.5rem;
-    text-align: center;
     font-family: 'Shrikhand', cursive;
     }
   
@@ -673,6 +672,19 @@ font-family: 'Shrikhand', cursive;*/
   .stars p
   {font-size: 1.2rem;}
 
+  .shop-padded { padding-right: 5%;}
+
+  .shop h1 
+  {
+  margin: 0px;
+  font-size: 2.5rem;
+  }
+
+  .shop h2 
+  {
+  margin: 0px;
+  font-size: 2.3rem;
+  }
 
  
 
@@ -1053,8 +1065,6 @@ footer {
   /* -------SHOP----- */
   .shopify-button
   {right: 25%;}
-
- 
  
 /* -------MEDIA KIT---------   */
 
@@ -1177,6 +1187,8 @@ footer {
     right: 0%;
     left: 22%;
     }
+
+    .shop-padded {padding-right: 0%;}
 
    .padded-1 
     {padding: 4px;}
