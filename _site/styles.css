@@ -686,7 +686,17 @@ font-family: 'Shrikhand', cursive;*/
   font-size: 2.3rem;
   }
 
- 
+  .shop h3
+  {font-size: 2rem;}
+
+  .shop h4
+  {font-size: 1.8rem;}
+
+  .shop h5
+  {font-size: 1.6rem;}
+
+  .shop h6
+  {font-size: 1.4rem;}
 
 /*------------------ HEADER ----------------*/
 header 
@@ -1065,6 +1075,10 @@ footer {
   /* -------SHOP----- */
   .shopify-button
   {right: 25%;}
+
+  .shop-padded { padding-right: 0%;}
+
+  .shop h1, h2 {text-align: center;}
  
 /* -------MEDIA KIT---------   */
 
@@ -1073,7 +1087,7 @@ footer {
 
   
 @media(max-width:576px) {
-
+    
   header {margin-bottom: 0rem !important ;}
   .hamburger 
     {
@@ -1187,8 +1201,14 @@ footer {
     right: 0%;
     left: 22%;
     }
-
     .shop-padded {padding-right: 0%;}
+
+    .shop h1 {font-size: 2rem;} 
+    .shop h2 {font-size: 1.9rem;}
+    .shop h3 {font-size: 1.7rem;} 
+    .shop h4 {font-size: 1.5rem;} 
+    .shop h5 {font-size: 1.3rem;} 
+    .shop h6 {font-size: 1.1rem;} 
 
    .padded-1 
     {padding: 4px;}
