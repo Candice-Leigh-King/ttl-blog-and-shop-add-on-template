@@ -622,7 +622,8 @@ font-family: 'Shrikhand', cursive;*/
     position: fixed;
     line-height: 0.5;
     bottom: 1rem;
-    right: 38%;
+    right: 0%;
+    left: 0%;
     z-index: 2;
     font-weight: 400;
     color: white;
@@ -1073,9 +1074,6 @@ footer {
    }
  
   /* -------SHOP----- */
-  .shopify-button
-  {right: 25%;}
-
   .shop-padded { padding-right: 0%;}
 
   .shop h1, h2 {text-align: center;}
@@ -1196,11 +1194,6 @@ footer {
    .blog-banner-mobile h1 {font-size: 1.7rem;}
 
    /* ----SHOP--- */
-   .shopify-button 
-    {
-    right: 0%;
-    left: 22%;
-    }
     .shop-padded {padding-right: 0%;}
 
     .shop h1 {font-size: 2rem;} 
