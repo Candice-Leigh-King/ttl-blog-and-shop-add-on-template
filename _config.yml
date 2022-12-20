@@ -24,10 +24,10 @@ defaults:
     values:
       layout: "affiliates" # overrides previous default layout
 
-collection_groups:
-    products:
-      enabled: true
-      output: true
+collection:
+  products:
+    enabled: true
+    output: true
 
 _inputs:
   textarea_html:
