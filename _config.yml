@@ -25,7 +25,7 @@ defaults:
       layout: "affiliates" # overrides previous default layout
 
 collection_groups:
-  - heading: shop
+  - heading: products
     collection:
     products:
       enabled: true
