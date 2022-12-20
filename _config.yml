@@ -25,9 +25,10 @@ defaults:
       layout: "affiliates" # overrides previous default layout
 
 collections:
- products:
-   enabled: true
-   output: true
+  - heading: shop
+    products:
+      enabled: true
+      output: true
 
 _inputs:
   textarea_html:
