@@ -26,7 +26,6 @@ defaults:
 
 collection_groups:
   - heading: products
-    collection:
     products:
       enabled: true
       output: true
