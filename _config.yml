@@ -24,7 +24,7 @@ defaults:
     values:
       layout: "affiliates" # overrides previous default layout
 
-collection:
+collections:
   products:
     enabled: true
     output: true
