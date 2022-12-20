@@ -41,7 +41,7 @@ _inputs:
       bulletedlist: true
       numberedlist: true
       horizontalrule: true
-      styles: /_includes/blog-article.html#style
+      styles: /custom-styles/styles.css
       left: left
       center: center
       right: right
