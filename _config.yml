@@ -41,7 +41,7 @@ _inputs:
       bulletedlist: true
       numberedlist: true
       horizontalrule: true
-      styles: /styles.css
+      styles: /content-blocks-{{forloop.index0}}
       left: left
       center: center
       right: right
