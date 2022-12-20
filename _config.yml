@@ -24,21 +24,11 @@ defaults:
     values:
       layout: "affiliates" # overrides previous default layout
 
-collection_groups:
-  - heading: Blogging
-    collections:
-      - posts
-      - drafts
-  - heading: Other
-    collections:
-      - pages
-      - staff
-      - features
-
 collections:
   products:
     enabled: true
     output: true
+    icon: shopping_cart
 
 _inputs:
   textarea_html:
