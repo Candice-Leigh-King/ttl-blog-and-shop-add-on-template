@@ -30,7 +30,7 @@ collections:
    output: true
 
 _inputs:
-  textarea_html:
+  textarea:
     options:
       blockquote: true
       bold: true
