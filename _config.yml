@@ -81,7 +81,7 @@ _array_structures:
       - label: The Divine Fade
         icon: auto_awesome
         value:
-          _section-type:
+          _section-type: the-divine-fade
           right-image: 
             image: 
             border-color: 
