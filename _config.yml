@@ -439,10 +439,10 @@ _array_structures:
             heading-font: 
             subheading-font: 
             text-font:
-      - label: Text and Image
+      - label: Text and Image (image on the left) 
         icon: art_track
         value:
-          _section-type: text-and-image (image on the left) 
+          _section-type: text-and-image
           image: 
           textarea_html: 
           colors:
