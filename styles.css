@@ -729,7 +729,6 @@ font-family: 'Shrikhand', cursive;*/
   margin-top: -7rem;
   z-index: 1;
   }
-
 /*------------------ HEADER ----------------*/
 header 
   {
@@ -1107,7 +1106,11 @@ footer {
   /* -------SHOP----- */
   .shop-padded { padding-right: 0%;}
 
-  .shop h1, h2 {text-align: center;}
+  .flex-flip 
+  { 
+  display: flex;
+  flex-direction: column-reverse; 
+  }
 
   .right-image  
   {
