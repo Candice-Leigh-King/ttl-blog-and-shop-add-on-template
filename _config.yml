@@ -39,6 +39,7 @@ _inputs:
       italic: true
       strike: true
       underline: true 
+      link: true
       bulletedlist: true
       numberedlist: true
       horizontalrule: true
@@ -77,6 +78,55 @@ _array_structures:
           hero-color:
           hero-font: 
           content-block-link:
+      - label: The Divine Fade
+        icon:
+        value:
+        _section-type:
+        right-image: 
+          image: 
+          border-color: 
+          border-radius:
+          top-left-corner: 
+          top-right-corner: 
+          bottom-left-corner:
+          bottom-right-corner: 
+        left-image: 
+          image: 
+          border-color: 
+          border-radius:
+          top-left-corner: 
+          top-right-corner:
+          bottom-left-corner: 
+          bottom-right-corner:  
+        bottom-image: 
+          image: 
+          border-color:
+          border-radius:
+          top-left-corner:
+          top-right-corner: 
+          bottom-left-corner:
+          bottom-right-corner: 
+        text:
+          first-textarea_html: 
+          second-textarea_html:
+        button:
+          button-link: 
+          button-name:  
+        colors:  
+          background-color: 
+          heading-color: 
+          subheading-color: 
+          text-color:
+          button-color: 
+          button-hover-color:
+          button-text-color: 
+          button-text-hover-color: 
+        fonts:
+          heading-font: Shrikhand, cursive
+          subheading-font: Brushwell
+          text-font: Raleway, sans-serif
+          button-font: Shrikhand, cursive
+  - _section-type: fig-hover-block
       - label: Text Area
         icon: article
         value:
