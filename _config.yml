@@ -439,7 +439,7 @@ _array_structures:
             heading-font: 
             subheading-font: 
             text-font:
-      - label: Text and Image (image on the left) 
+      - label: Text and Image (left) 
         icon: art_track
         value:
           _section-type: text-and-image
@@ -454,7 +454,7 @@ _array_structures:
             heading-font: 
             subheading-font: 
             text-font:
-      - label: Text and Image (image on the right)
+      - label: Text and Image (right)
         icon: art_track
         value:
           _section-type: text-and-image 
