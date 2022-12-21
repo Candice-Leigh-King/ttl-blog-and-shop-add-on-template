@@ -440,7 +440,7 @@ _array_structures:
             subheading-font: 
             text-font:
       - label: Text and Image (left) 
-        icon: east
+        icon: west
         value:
           _section-type: text-and-image
           image: 
@@ -455,7 +455,7 @@ _array_structures:
             subheading-font: 
             text-font:
       - label: Text and Image (right)
-        icon: west
+        icon: east
         value:
           _section-type: right-text-and-image 
           image: 
