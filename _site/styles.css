@@ -1106,6 +1106,11 @@ footer {
   /* -------SHOP----- */
   .shop-padded { padding-right: 0%;}
 
+  .bg-image 
+  {
+  padding-bottom: 82%;
+  }
+
   .flex-flip 
   { 
   display: flex;
