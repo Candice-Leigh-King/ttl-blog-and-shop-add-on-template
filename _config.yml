@@ -457,7 +457,7 @@ _array_structures:
       - label: Text and Image (right)
         icon: west
         value:
-          _section-type: text-and-image 
+          _section-type: right-text-and-image 
           image: 
           textarea_html: 
           colors:
