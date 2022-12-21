@@ -442,6 +442,21 @@ _array_structures:
       - label: Text and Image
         icon: art_track
         value:
+          _section-type: text-and-image (image on the left) 
+          image: 
+          textarea_html: 
+          colors:
+            background-color: 
+            text-color:
+            heading-color: 
+            subheading-color: 
+          fonts:
+            heading-font: 
+            subheading-font: 
+            text-font:
+      - label: Text and Image (image on the right)
+        icon: art_track
+        value:
           _section-type: text-and-image 
           image: 
           textarea_html: 
