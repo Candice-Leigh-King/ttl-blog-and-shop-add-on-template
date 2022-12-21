@@ -126,7 +126,6 @@ _array_structures:
             subheading-font: 
             text-font: 
             button-font:
-  - _section-type: fig-hover-block
       - label: Text Area
         icon: article
         value:
