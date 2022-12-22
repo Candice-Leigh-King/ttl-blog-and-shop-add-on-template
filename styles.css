@@ -631,7 +631,12 @@ font-family: 'Shrikhand', cursive;*/
     color: white;
     text-align: center;
     }
-
+    .shop-button
+    {
+    position: fixed;
+    z-index: 10;
+    }
+    
   .all-products .compare-at-price 
   {font-size: 1.3rem;}
 
@@ -962,12 +967,6 @@ input[type=submit]
   background-color: transparent;
   color: #CE967A;
   border: 1px solid #CE967A;
-  }
-
-.shop-button
-  {
-  position: fixed;
-  z-index: 10;
   }
 
 
