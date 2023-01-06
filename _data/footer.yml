@@ -1,7 +1,12 @@
 colors:
-  background-color: '#FFFFFF'
-  border-color: '#D2966D'
-  social-icons-background-color: '#D2966D'
-  subfooter-hover-color: '#859F9F'
+  background-color: '#ffffff'
+  border-color: '#d2966d'
+  social-icons-background-color: '#d2966d'
+  subfooter-hover-color: '#859f9f'
 fonts:
-  subfooter-font: 'Raleway, sans-serif'
+  subfooter-font: Raleway, sans-serif
+shop-requirements:
+  terms-and-conditions-heading: Ts & Cs
+  terms-and-conditions-link: /ts-cs
+  privacy-heading: Privacy Policy
+  privacy-link: /pricavy-policy
